@@ -1,0 +1,14 @@
+###########  REGISTER
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+    "name":"Srinivas Akella",
+    "email":"srini-ak@yopmail.com",
+    "password":"Srinivas@8",
+    "profilePicture":"https://res.cloudinary.com/dakda5ni3/image/upload/v1706438557/pkgqqui13lhfoi88nmh5.jpg",
+    "country":"India",
+    "address":"DNO - 11-220, venkat nagar, indrapalem, kakinada, 533006.",
+    "isVendor":false,
+    "phone":"7995643201"
+}
